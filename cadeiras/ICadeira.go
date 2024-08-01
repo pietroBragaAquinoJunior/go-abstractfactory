@@ -16,7 +16,7 @@ type Cadeira struct {
 }
 
 func (c *Cadeira) MostrarAtributos() {
-	fmt.Printf("Material: %s, Preço: %f.", c.getMaterial(), c.getPreco())
+	fmt.Printf("Material: %s, Preço: %f \n", c.getMaterial(), c.getPreco())
 }
 
 func (c *Cadeira) getMaterial() string {

@@ -2,7 +2,6 @@ package main
 
 import (
 	"abstractlayout/fabricas"
-	"fmt"
 )
 
 func main() {
@@ -16,10 +15,7 @@ func main() {
 	cadeiraAlienigena := fabricaAlienigena.FabricarCadeira()
 
 	mesaHumana.MostrarAtributos()
-	fmt.Println()
 	mesaAlienigena.MostrarAtributos()
-	fmt.Println()
 	cadeiraHumana.MostrarAtributos()
-	fmt.Println()
 	cadeiraAlienigena.MostrarAtributos()
 }

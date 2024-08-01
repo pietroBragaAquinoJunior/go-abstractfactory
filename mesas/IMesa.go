@@ -19,7 +19,7 @@ type Mesa struct {
 }
 
 func (m *Mesa) MostrarAtributos() {
-	fmt.Printf("Material: %s, Preço: %f, Formato: %s", m.getMaterial(), m.getPreco(), m.getFormato())
+	fmt.Printf("Material: %s, Preço: %f, Formato: %s \n", m.getMaterial(), m.getPreco(), m.getFormato())
 }
 
 func (m *Mesa) getFormato() string {
